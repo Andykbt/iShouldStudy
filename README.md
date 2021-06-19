@@ -1,4 +1,4 @@
-#iShouldStudy
+# iShouldStudy
 
 A web application to help people remain product when it comes to studying.
 

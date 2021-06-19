@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
+@import url('https://use.typekit.net/iqe5cbr.css');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* @font-face {
+  font-family: "Britannic Bold";
+  src: local("Britannic Bold"),
+  url("./fonts/Britannic-Bold-Regular.ttf") format("truetype");
+  font-weight: bold;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+:root {
+  background-color: #a3554b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  margin: auto;
+  display: grid;
+  width: 1280px;
+  height: 800px;
+  grid-template-columns: 0px repeat(8, 117px) 0px;
+  grid-column-gap: 38px;
+
+  grid-template-rows: repeat(12, 55.666666666667px);
+  grid-row-gap: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+iframe {
+  grid-row-start: 7;
+  grid-row-end: 11;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.center {
+  grid-row-start: 2;
+  grid-row-end: 12;
+  grid-column-start: 4;
+  grid-column-end: 8;
+}
+
+.right {
+  grid-row-start: 4;
+  grid-row-end: 12;
+  grid-column-start: 8;
+  grid-column-end: 10;
+}
+
+.heading {
+  font-family: zenon, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 39px;
+  margin-block-start: 0.3em;
+  margin-block-end: 0em;
+}
+
+.subHeading {
+  font-family: Britannic-Bold-Regular;
+  font-size: 13px;
+  text-align: right;
+  margin: 0;
+}
+
+.bodyText {
+  font-family: zenon, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
 }
