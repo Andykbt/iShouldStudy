@@ -43,6 +43,7 @@ iframe {
   grid-row-end: 12;
   grid-column-start: 4;
   grid-column-end: 8;
+  border: solid 1px white;
 }
 
 .right {

@@ -1,0 +1,11 @@
+.Container {
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.Time {
+    font-family: zenon, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 39px;
+}
