@@ -7,10 +7,9 @@ const Timer = () => {
     const [minutes, setMinutes] = useState(0);
     const[seconds, setSeconds] = useState(5);
     const[displayMessage, setDisplayMessage] = useState(false);
-    const[startTimer, setStartTimer] = useState(true);
+    const[startTimer, setStartTimer] = useState(false);
 
     useEffect(() => {
-        console.log("Testing: " + startTimer);
         if (startTimer) {
             let interval = setInterval(() => {
                 clearInterval(interval);
@@ -44,7 +43,7 @@ const Timer = () => {
     return(
         <div className={classes.Container}>
             <div className={classes.Time}> {timerMinutes}:{timerSeconds} </div>
-            {displayMessage && <div>Break time! New session starts in:</div>}
+            {displayMessage && <div>Break time!</div>}
             <button onClick={toggleTimer}>
                 {!startTimer ?
                     <FontAwesomeIcon icon={faPlay} />

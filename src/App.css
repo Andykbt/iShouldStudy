@@ -53,6 +53,17 @@ iframe {
   grid-column-end: 10;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+
+  font-family: zenon, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .heading {
   font-family: zenon, sans-serif;
   font-weight: bold;
