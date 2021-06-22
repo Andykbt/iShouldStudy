@@ -39,11 +39,13 @@ iframe {
 }
 
 .center {
-  grid-row-start: 2;
+  grid-row-start: 3;
   grid-row-end: 12;
   grid-column-start: 4;
   grid-column-end: 8;
   border: solid 1px white;
+  text-align: center;
+  overflow: hidden;
 }
 
 .right {
@@ -78,6 +80,11 @@ iframe {
   font-size: 13px;
   text-align: right;
   margin: 0;
+  font-weight: bold;
+}
+
+.illustration {
+  width: 580px;
 }
 
 .bodyText {

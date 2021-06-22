@@ -14,7 +14,7 @@ import Fan from '../../assets/ES_Bathroom Vent Fan 1 - SFX Producer.mp3'
 
 const Sounds = [
     {sound: LightRain, label: "Rain Falling"},
-    {sonund: Cat, label: "Cat Purr"},
+    {sound: Cat, label: "Cat Purr"},
     {sound: Traffic, label: "Passing Traffic"},
     {sound: Fireplace, label: "Fireplace"},
     {sound: Nature, label: "Nature"},
