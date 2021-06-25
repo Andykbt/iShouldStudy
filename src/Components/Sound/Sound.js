@@ -30,7 +30,7 @@ const Sound = (index) => {
 
     return(
         <div>
-            <p>{Sounds[val].label}</p>
+            <p className={classes.label}>{Sounds[val].label}</p>
             <Howler
                 src={Sounds[val].sound}
                 playing={playMusic}
