@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/iShouldStudy/static/css/main.f010d89a.chunk.css",
+    "main.css": "/iShouldStudy/static/css/main.014da39b.chunk.css",
     "main.js": "/iShouldStudy/static/js/main.47099729.chunk.js",
     "main.js.map": "/iShouldStudy/static/js/main.47099729.chunk.js.map",
     "runtime-main.js": "/iShouldStudy/static/js/runtime-main.d3392bb2.js",
@@ -10,7 +10,7 @@
     "static/js/3.a8626fce.chunk.js": "/iShouldStudy/static/js/3.a8626fce.chunk.js",
     "static/js/3.a8626fce.chunk.js.map": "/iShouldStudy/static/js/3.a8626fce.chunk.js.map",
     "index.html": "/iShouldStudy/index.html",
-    "static/css/main.f010d89a.chunk.css.map": "/iShouldStudy/static/css/main.f010d89a.chunk.css.map",
+    "static/css/main.014da39b.chunk.css.map": "/iShouldStudy/static/css/main.014da39b.chunk.css.map",
     "static/js/2.41be15df.chunk.js.LICENSE.txt": "/iShouldStudy/static/js/2.41be15df.chunk.js.LICENSE.txt",
     "static/media/ES_Bathroom Vent Fan 1 - SFX Producer.39049521.mp3": "/iShouldStudy/static/media/ES_Bathroom Vent Fan 1 - SFX Producer.39049521.mp3",
     "static/media/ES_Cat Purr Long - SFX Producer.7f11c3b5.mp3": "/iShouldStudy/static/media/ES_Cat Purr Long - SFX Producer.7f11c3b5.mp3",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.d3392bb2.js",
     "static/js/2.41be15df.chunk.js",
-    "static/css/main.f010d89a.chunk.css",
+    "static/css/main.014da39b.chunk.css",
     "static/js/main.47099729.chunk.js"
   ]
 }
