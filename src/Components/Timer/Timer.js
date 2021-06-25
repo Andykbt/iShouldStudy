@@ -4,8 +4,8 @@ import {faPause, faPlay, faStop, faReset, faUndoAlt} from '@fortawesome/free-sol
 import classes from '../Components.module.css'
 
 const Timer = () => {
-    const [minutes, setMinutes] = useState(0);
-    const[seconds, setSeconds] = useState(5);
+    const [minutes, setMinutes] = useState(25);
+    const[seconds, setSeconds] = useState(0);
     const[startTimer, setStartTimer] = useState(false);
     const[displayMessage, setDisplayMessage] = useState(false);
 
