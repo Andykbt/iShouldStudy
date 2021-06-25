@@ -133,8 +133,10 @@
   }
 }
 
-@media only screen and (max-width: 1920px) {
+
+@media only screen and (min-width: 1921px) {
   .App {
-    width: 1920px;
+    max-width: 1920px;
+    max-height: 780px;
   }
 }
